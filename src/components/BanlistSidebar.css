@@ -1,0 +1,42 @@
+/* BanlistSidebar.css */
+
+.banlist-sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #72707073;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow-y: auto;
+}
+
+.banlist-sidebar h4 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.banlist-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.banlist-sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.banlist-sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.banlist-sidebar ul li a:hover {
+    background-color: #ddd;
+}

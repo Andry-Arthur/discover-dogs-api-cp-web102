@@ -1,0 +1,66 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.main-card .picture img{
+  width: 350px; /* Fixed width */
+  object-fit: cover; /* Ensure the image covers the area */
+}
+
+.main-content {
+  flex: 1;
+}
+
+.banlist-sidebar {
+  order: 1; /* Ensure the sidebar is on the right */
+  width: 250px; /* Adjust the width as needed */
+}
+
+h1 {
+  margin: .5rem 0;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+button {
+  background-color: #83bfff; /* Primary blue color */
+  color: rgb(0, 0, 0); /* White text */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 0.5rem 1rem; /* Padding for size */
+  font-size: 1rem; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+
+  /* Add hover effect */
+  &:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+
+  /* Add focus effect */
+  &:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Add custom focus outline */
+  }
+
+  /* Add active effect */
+  &:active {
+    background-color: #004085; /* Even darker blue when active */
+  }
+
+ 
+}
