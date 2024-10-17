@@ -4,7 +4,7 @@ Submitted by: **Andry Rakotonjanabelo**
 
 This web app: **A React platform that allows user to randomly find out more about different kinds of dogs through the Dog API.**
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
@@ -38,7 +38,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The main challenge that prevented me from finishing the features was that I couldn't get the right information/json data from the API. Even though my used the right API calls and parameters, it refused to return with the breed data. Without the breed data, I couldn't get relevant information to use for the tags and the ban list.
 
 ## License
 
